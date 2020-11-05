@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    /* font */
+    font-family: "Averta CY", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.h1 {
+    font-size: 4.5vw;
+    color: grey;
+}
+
+.h2 {
+    font-size: 3vw;
+}
+
+.h3 {
+    font-size: 2vw;
+}
+
+.header {
+    padding: 10% 20px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header.h1 {
+    font-size: 100px;
+    text-align: left;
+    color: teal;
+}
+
+.two-column {
+    float: left;
+    width: 50%;
+    padding 7%;
+}
+
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 7%;
+}
+
+.four-column h1 {
+    font-size: 12px;
+    color: white;
+}
+
+.four-column p {
+    font-size: 10px;
+    color: white;
+}
+
+#section-1 {
+    background-color: #F5EEF5;
+}
+
+#section-2 {
+    background-color: #FAF5F3;
+}
+
+#section-3 {
+    background-color: #f2f9f8;
+}
+
+#section-4 {
+    background-color: #000000;
+}
